@@ -1,0 +1,29 @@
+{
+    "name": "myproject",
+    "description": "sample DLangUI project",
+    "homepage": "https://github.com/buggins/dlangui",
+    "license": "Boost",
+    "authors": ["Vadim Lopatin"],
+
+    "targetName": "example",
+    "targetPath": "bin",
+    "targetType": "executable",
+
+    "sourcePaths": ["src"],
+
+    "sourceFiles": [
+         "src/app.d"
+    ],
+
+    "copyFiles-windows": [
+        "lib/FreeImage.dll"
+    ],
+
+    "copyFiles": [
+        "res"
+    ],
+
+    "dependencies": {
+        "dlangui": "~master"
+    }
+}
